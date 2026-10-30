@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "kaisoryx",
+  "version": "${version}",
+  "name": "Kaisoryx Client",
+  "description": "A futuristic, client-side Minecraft quality-of-life and visual customization mod.",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.kaisoryx.KaisoryxClient"] },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

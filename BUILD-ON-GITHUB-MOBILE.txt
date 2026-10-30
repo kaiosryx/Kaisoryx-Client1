@@ -1,0 +1,20 @@
+KAISORYX - BUILD FROM GITHUB (MOBILE FRIENDLY)
+
+This ZIP includes a GitHub Actions workflow that builds the Fabric mod in GitHub's cloud.
+It does NOT contain a prebuilt JAR.
+
+ONE-TIME STEPS:
+1. Create a GitHub repository named Kaisoryx-Client.
+2. Extract this ZIP on a computer OR upload the CONTENTS of the extracted folder to the repository.
+   Important: upload the files/folders inside Kaisoryx-Client, not the ZIP file itself.
+3. Make sure the .github/workflows/build.yml file is included at the repository root.
+4. In GitHub, open the repository > Actions.
+5. Select "Build Kaisoryx Fabric Mod" > "Run workflow".
+6. Wait for the run to finish. If it succeeds, open the completed run and download
+   the "Kaisoryx-Fabric-JAR" artifact.
+
+NOTE:
+- This is an early prototype. Many listed modules are UI placeholders and not implemented yet.
+- The workflow may expose compile errors if the pinned Minecraft/Fabric APIs or source need adjustments.
+- A successful build only means the current source compiled; it does not mean all advertised features exist.
+- Install the resulting JAR only with matching Minecraft Java 1.21.11, Fabric Loader and Fabric API.
